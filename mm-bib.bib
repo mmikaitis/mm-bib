@@ -25,28 +25,39 @@
 @string{j-NUM-ALG               = "Numer. Algorithms"}
 
 
+@Techreport{effm24,
+  title = "Probabilistic Error Analysis of Limited-Precision Stochastic Rounding",
+  author = "El Arar, El-mehdi and Fasi, Massimiliano and Filip, Silviu-Ioan and Mikaitis, Mantas",
+  url = "https://hal.science/hal-04665809",
+  institution = "University of Leeds; Inria Rennes - Bretagne Atlantique",
+  year = 2024,
+  moth = jul,
+  hal_id = "hal-04665809",
+  hal_version = "v1",
+}
+
+@InProceedings{mika24b,
+  title = "MATLAB Simulator of Level-Index Arithmetic",
+  author = "Mantas Mikaitis",
+  booktitle = "2024 IEEE 31st Symposium on Computer Arithmetic (ARITH)",
+  year = 2024,
+  month = jul,
+  pages = "68-71",
+  doi = "10.1109/ARITH61463.2024.00020",
+  address = "Malaga, Spain"
+}
+
 @Article{mika24a,
   author = "Mantas Mikaitis",
   journal = j-IEEE-TC,
   title = "Monotonicity of Multi-Term Floating-Point Adders", 
   year = 2024,
+  month = feb,
   volume = 73,
   number = 6,
   pages = "1531-1543",
   doi = "10.1109/TC.2024.3371783"
   }
-
-@Misc{mika24b,
-  title = "MATLAB Simulator of Level-Index Arithmetic",
-  author = "Mantas Mikaitis",
-  year = 2024,
-  month = feb,
-  eprint = "2402.02301",
-  archivePrefix = "arXiv",
-  primaryClass = "cs.MS",
-  howpublished = "arXiv:2402.02301 [cs.MS]",
-  note = "Accepted for ARITH 2024"
-}
 
 @Article{fami23,
   author = "Fasi, Massimiliano and Mikaitis, Mantas",
@@ -59,7 +70,10 @@
   volume = 49,
   number = 2,
   journal = j-ACM-TOMS,
-  month = jun
+  month = jun,
+  articleno = 18,
+  numpages = 32,
+  pages = "18:1-18:32"
   }
 
 @Article{fhlm23,
@@ -74,6 +88,24 @@
   doi = "10.1137/21m1465032",
   }
 
+@Misc{hyds22,
+  title = "The {SpiNNaker} 2 Processing Element Architecture for Hybrid Digital Neuromorphic Computing",
+  author = "{H\"{o}ppner}, Sebastian and Yan, Yexin and Vogginger, Bernhard and Liu, Chen and Kelber, Florian and Dixius, Andreas and Scholze, Stefan and Partzsch, Johannes and Stolba, Marco and {Neum\"{a}rker}, Felix and Ellguth, Georg and Hartmann, Stephan and Schiefer, Stefan and Hocker, Thomas and Walter, Dennis and Liu, Genting and Mikaitis, Mantas and Garside, Jim and Furber, Steve and Mayr, Christian",
+  year = 2022,
+  month = aug,
+  howpublished = "arXiv:2103.08392 [cs.AR]"
+}
+
+@InProceedings{hima22,
+  author = "Nicholas J. Higham and Mantas Mikaitis",
+  title = "Anymatrix: an extensible {MATLAB} matrix collection",
+  booktitle = "7th IMA Conference on Numerical Linear Algebra and Optimization",
+  note = "\url{https://ima.org.uk/12530/7th-ima-conference-on-numerical-linear-algebra-and-optimization/}",
+  month = jul,
+  year = 2022,
+  address = "Birmingham, United Kingdom"
+}
+
 @Article{cfhm22,
   author = "Matteo Croci and Massimiliano Fasi and Nicholas J. Higham and Theo Mary and Mantas Mikaitis",
   title = "Stochastic Rounding: Implementation, Error Analysis and Applications",
@@ -82,16 +114,47 @@
   number = 3,
   pages = "1-25",
   year = 2022,
+  month = mar,
   doi = "10.1098/rsos.211631",
   }
 
-@Misc{hyds22,
-  title = "The {SpiNNaker} 2 Processing Element Architecture for Hybrid Digital Neuromorphic Computing",
-  author = "{H\"{o}ppner}, Sebastian and Yan, Yexin and Vogginger, Bernhard and Liu, Chen and Kelber, Florian and Dixius, Andreas and Scholze, Stefan and Partzsch, Johannes and Stolba, Marco and {Neum\"{a}rker}, Felix and Ellguth, Georg and Hartmann, Stephan and Schiefer, Stefan and Hocker, Thomas and Walter, Dennis and Liu, Genting and Mikaitis, Mantas and Garside, Jim and Furber, Steve and Mayr, Christian",
-  year = 2022,
-  month = aug,
-  howpublished = "arXiv:2103.08392 [cs.AR]"
+@Article{himi21,
+  author = "Nicholas J. Higham and Mantas Mikaitis",
+  title = "Anymatrix: {An} Extensible {MATLAB} Matrix Collection",
+  journal = j-NUM-ALG,
+  volume = 90,
+  number = 3,
+  pages = "1175-1196",
+  year = 2021,
+  doi = "10.1007/s11075-021-01226-2",
+  month = dec,
+  }
+
+@techreport{himi21-UG,
+  author = "Nicholas J. Higham and Mantas Mikaitis",
+  title = "Anymatrix: {An} Extensible {MATLAB} Matrix Collection.
+           {Users'} Guide",
+  institution =  inst-MIMS,
+  address =      inst-MIMS:adr,
+  type =         t-MIMS-EPrint,
+  number = "2021.15",
+  pages = "31",
+  month = oct,
+  year = "2021",
+  url = "http://eprints.maths.manchester.ac.uk/2834/"
 }
+
+@InProceedings{mika21b,
+  author = "Mikaitis, Mantas",
+  booktitle = "2021 International Joint Conference on Neural Networks (IJCNN)", 
+  title = "Stochastic Rounding: Algorithms and Hardware Accelerator",
+  publisher = pub-IEEE,
+  year = 2021,
+  month = sep,
+  doi={10.1109/IJCNN52387.2021.9533756},
+  address = "Shenzhen, China",
+  pages = "1-6",
+  }
 
 @InProceedings{mika21a,
   author = "Mikaitis, Mantas",
@@ -122,42 +185,8 @@
   month = mar,
   volume = 9,
   number = 3,
+  pages = "1451-1466",
   doi = "10.1109/TETC.2021.3069165"
-  }
-
-@Article{himi21,
-  author = "Nicholas J. Higham and Mantas Mikaitis",
-  title = "Anymatrix: {An} Extensible {MATLAB} Matrix Collection",
-  journal = j-NUM-ALG,
-  volume = 90,
-  number = 3,
-  pages = "1175-1196",
-  year = 2021,
-  doi = "10.1007/s11075-021-01226-2"
-  }
-
-@techreport{himi21-UG,
-  author = "Nicholas J. Higham and Mantas Mikaitis",
-  title = "Anymatrix: {An} Extensible {MATLAB} Matrix Collection.
-           {Users'} Guide",
-  institution =  inst-MIMS,
-  address =      inst-MIMS:adr,
-  type =         t-MIMS-EPrint,
-  number = "2021.15",
-  pages = "31",
-  month = oct,
-  year = "2021",
-  url = "http://eprints.maths.manchester.ac.uk/2834/"
-}
-
-@InProceedings{mika21b,
-  author = "Mikaitis, Mantas",
-  booktitle = "2021 International Joint Conference on Neural Networks (IJCNN)", 
-  title = "Stochastic Rounding: Algorithms and Hardware Accelerator",
-  publisher = pub-IEEE,
-  year = 2021,
-  doi={10.1109/IJCNN52387.2021.9533756},
-  address = "Shenzhen, China"
   }
 
 @Article{fhmp21,
@@ -170,6 +199,24 @@
   month = feb,
   year = 2021,
   doi = "10.7717/peerj-cs.330"
+  }
+
+@InProceedings{mika20b,
+  author = "Mikaitis, Mantas",
+  booktitle = "2020 IEEE 27th Symposium on Computer Arithmetic (ARITH)",
+  title = "Issues with rounding in the {GCC} implementation of the {ISO} 18037:2008 standard fixed-point arithmetic",
+  year = 2020,
+  pages = "129-132",
+  doi = "10.1109/ARITH48897.2020.00028",
+  address = "Portland, OR, USA",
+  month = aug,
+  }
+
+@PhdThesis{mika20a,
+  author = "Mikaitis, Mantas",
+  title = "Arithmetic Accelerators for a Digital Neuromorphic Processor",
+  school = "University of Manchester",
+  year = 2020
   }
 
 @Article{hmlf20,
@@ -186,29 +233,14 @@
   publisher = "The Royal Society"
   }
 
-@PhdThesis{mika20a,
-  author = "Mikaitis, Mantas",
-  title = "Arithmetic Accelerators for a Digital Neuromorphic Processor",
-  school = "University of Manchester",
-  year = 2020
-  }
-
-@InProceedings{mika20b,
-  author = "Mikaitis, Mantas",
-  booktitle = "2020 IEEE 27th Symposium on Computer Arithmetic (ARITH)",
-  title = "Issues with rounding in the {GCC} implementation of the {ISO} 18037:2008 standard fixed-point arithmetic",
-  year = 2020,
-  pages = "129-132",
-  doi = "10.1109/ARITH48897.2020.00028",
-  address = "Portland, OR, USA"
-  }
-
 @Article{rbbd18,
   author = "Rhodes, Oliver and Bogdan, Petruţ A. and Brenninkmeijer, Christian and Davidson, Simon and Fellows, Donal and Gait, Andrew and Lester, David R. and Mikaitis, Mantas and Plana, Luis A. and Rowley, Andrew G. D. and Stokes, Alan B. and Furber, Steve B.",
   title = "{sPyNNaker}: A Software Package for Running {PyNN} Simulations on {SpiNNaker}",
   journal = "Frontiers in Neuroscience",
   volume = 12,
+  number = 816,
   year = 2018,
+  month = nov,
   url = "https://www.frontiersin.org/articles/10.3389/fnins.2018.00816",
   doi = "10.3389/fnins.2018.00816",
   issn = "1662-453X"
@@ -221,7 +253,8 @@
   year = 2018,
   pages = "37-44",
   doi = "10.1109/ARITH.2018.8464785",
-  address = "Amherst, MA, USA"
+  address = "Amherst, MA, USA",
+  month = sep,
   }
 
 @Article{mpkf18,
@@ -229,7 +262,9 @@
   title = "Neuromodulated Synaptic Plasticity on the {SpiNNaker} Neuromorphic System",
   journal = "Front. Neurosci.",
   volume = 12,
+  number = 105,
   year = 2018,
+  month = feb,
   url = "https://www.frontiersin.org/articles/10.3389/fnins.2018.00105",
   doi = "10.3389/fnins.2018.00105",
   issn = "1662-453X",
@@ -240,6 +275,7 @@
   booktitle = "2017 International Joint Conference on Neural Networks (IJCNN)",
   title = "Brewing the first ever automatic memory management utility for {SpiNNaker}: Real-time garbage collection for STDP simulations",
   year = 2017,
+  month = jul,
   pages = "3008-3015",
   doi = "10.1109/IJCNN.2017.7966229",
   address = "Anchorage, AK, USA"
